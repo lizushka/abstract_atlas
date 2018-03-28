@@ -1,5 +1,53 @@
-\documentclass{article}
+\documentclass[12pt]{article}
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage{cmap}
+
+\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{authblk}
+\renewcommand\Authand{, }
+
+\usepackage{hyperref}
+\usepackage{cite}
+
 \begin{document}
-(Type your content here.)
+
+\title{Typological Atlas of Guatemala}
+\author{Elizaveta Vostokova\thanks{\href{mailto:belka.liza@gmail.com}{belka.liza@gmail.com}}} 
+\author{Alexandra Kozhukhar\thanks{\href{mailto:sasha.kozhukhar@gmail.com}{sasha.kozhukhar@gmail.com}}}
+\affil{NRU HSE, Moscow, Russia}
+\date{}
+
+\maketitle
+
+\pagenumbering{gobble}
+
+Guatemala is a region of high language density. According to Glottolog
+\cite{glottolog} there are three language families (Mayan, Arawakan and Cariban) and at least two unclassified language unions (Mixe-Zoque languages and Xincan languages) spread in this region. 
+\smallskip{}
+
+As linguistic area Guatemala received insufficient attention from scholars: WALS covers only half of 32 Guatemalan languages and PHOIBLE \cite{phoible} describes only 6 languages. There is a volume on languages of Guatemala \cite{mayers} published by Summer Institute of Linguistics that includes language descriptions, but lacks adequate typological comparisons.
+\smallskip{}
+
+The following project aims to demonstrate geographical distribution of specific typological features of the languages of Guatemala. Our objective is to create an extended version of WALS project \cite{wals} for a smaller area. Language specific information extracted from grammars is visualized in an unified and easily perceivable way. Distribution of each feature is presented on a map and provided with brief annotation.
+\smallskip{}
+
+Maps represent language distribution across villages and municipalities, based on information provided by National Institute of Statistics of Guatemala \cite{statistics} and sociolinguistic information contained in grammars. Typological maps deal with phonological, morphological, syntactic and lexical features of Guatemalan languages.
+\smallskip{}
+
+Despite the typological atlas itself another outcome of the project is an open-source dataset of typological features of Guatemalan languages available for future research and statistical analysis. Alfa version of online atlas is available at link: \href{https://sasha-kozhukhar.github.io/guatemala_atlas/}{https://sasha-kozhukhar.github.io/guatemala\_atlas/}.
+
+\begin{thebibliography}{}
+\bibitem{statistics}Caracterizaciones departamentales. 2011. Instituto Nacional de Estadística. \href{http://www.ine.gob.gt/}{http://www.ine.gob.gt/}
+\bibitem{wals}Dryer, Matthew S. \& Haspelmath, Martin (eds.) 2013. The World Atlas of Language Structures Online. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at \href{http://wals.info}{http://wals.info})
+\bibitem{glottolog}Hammarström, Harald \& Bank, Sebastian \& Forkel, Robert \& Haspelmath, Martin. (2018). Glottolog 3.2. Jena: Max Planck Institute for the Science of Human History.  (Available online at \href{http://glottolog.org}{http://glottolog.org})
+\bibitem{mayers}Mayers, M. K. (Ed.). (1966). Languages of Guatemala (Vol. 23). Mouton.
+\bibitem{phoible}Moran, Steven \& McCloy, Daniel \& Wright, Richard (eds.) (2014). PHOIBLE Online. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at \href{http://phoible.org}{http://phoible.org})
+
+
+\end{thebibliography}
+
 \end{document}
